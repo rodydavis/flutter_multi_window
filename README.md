@@ -4,7 +4,7 @@
 
 # flutter_multi_window
 
-A Flutter project to create new windows on supported platforms.
+A Flutter package to create new windows on supported platforms.
 
 Online Demo: https://rodydavis.github.io/flutter_multi_window/
 
