@@ -8,16 +8,7 @@ A Flutter project to create new windows on supported platforms.
 
 Online Demo: https://rodydavis.github.io/flutter_multi_window/
 
-
-| Platform 	| Supported? 	|
-|----------	|------------	|
-| Web      	| ✅          	|
-| MacOS    	| ❎          	|
-| Windows  	| ❎          	|
-| Linux    	| ❎          	|
-| Android  	| ❎          	|
-| iOS      	| ❎          	|
-
+> Only supports web at the moment!
 
 ## Getting Started
 
@@ -27,6 +18,8 @@ final window = NewWindow(
   width: 400,
   height: 400,
 );
+if (kIsWeb) {
+  window.create(); // Show the window
+}
 
-window.create(); // Show the window
 ```
